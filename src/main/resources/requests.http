@@ -1,2 +1,7 @@
-### GET ASk
-GET http://localhost:8080/ask
+### POST Message
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "message": "What is the best programming language? to learn in 2026? to get a job quickly?"
+}
